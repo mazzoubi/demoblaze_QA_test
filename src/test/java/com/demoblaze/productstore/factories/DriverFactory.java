@@ -29,6 +29,7 @@ public class DriverFactory {
                 throw new RuntimeException("The browser dose not supported");
         }
 
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.get(ConfigUtil.getInstance().getBaseUrl());
