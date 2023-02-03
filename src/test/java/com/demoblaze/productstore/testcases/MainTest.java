@@ -39,6 +39,7 @@ public class MainTest extends BaseTest {
     @Test(priority = 5)
     public void verifyCartProducts(){
         CartPage cartPage = new CartPage(driver);
-        cartPage.aa();
+        cartPage.oncClickCartTab();
+        cartPage.deleteRandomItemFromCart();
     }
 }
