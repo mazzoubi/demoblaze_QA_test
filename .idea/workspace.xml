@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59190961-5dbc-4f12-8cd3-6956c7150776" name="Changes" comment="mazzoubi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/ProductInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/ProductInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/DriverUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="59190961-5dbc-4f12-8cd3-6956c7150776" name="Changes" comment="mazzoubi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675438662525</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mazzoubi">
+      <created>1675440720586</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675440720586</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
