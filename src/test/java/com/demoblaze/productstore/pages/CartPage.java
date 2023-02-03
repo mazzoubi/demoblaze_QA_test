@@ -27,6 +27,7 @@ public class CartPage extends BasePage {
     }
 
 
+
     public void deleteRandomItemFromCart(){
         // get all products whose quanity >0
         WebElement baseTable = driver.findElement(By.id("tbodyid"));
