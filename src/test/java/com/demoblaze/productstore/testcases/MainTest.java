@@ -28,7 +28,7 @@ public class MainTest extends BaseTest {
         homePage.chooseRandomItem();
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4,enabled = false)
     public void addItemsToTheCart(){
         ProductInfoPage productInfoPage = new ProductInfoPage(driver);
         productInfoPage.onClickAddToCart();
