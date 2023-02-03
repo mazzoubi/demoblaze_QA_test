@@ -2,11 +2,14 @@ package com.demoblaze.productstore.pages;
 
 import com.demoblaze.productstore.bases.BasePage;
 import com.demoblaze.productstore.bases.BaseTest;
+import com.demoblaze.productstore.utils.DriverUtil;
 import com.demoblaze.productstore.utils.UserUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+
+import java.time.Duration;
 
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
@@ -40,11 +43,7 @@ public class LoginPage extends BasePage {
     }
 
     public void checkIfLoginSuccess(){
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-
-        }
+        DriverUtil.waitVisibility(1);
         Assert.assertTrue(nameOfUserText.isDisplayed());
     }
 

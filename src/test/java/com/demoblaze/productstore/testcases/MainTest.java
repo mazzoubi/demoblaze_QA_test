@@ -7,28 +7,28 @@ import org.testng.annotations.Test;
 public class MainTest extends BaseTest {
 
     @Test(priority = 1)
-    public void registerScreen(){
+    public void verifyRegister(){
         SignUpPage signUpPage = new SignUpPage(driver);
         signUpPage.onClickRegister();
         signUpPage.fillUserNameAndPassword();
     }
 
 
-    @Test(priority = 2)
-    public void loginScreen(){
+    @Test(priority = 2,description = "Verify login to the web site web using username and password")
+    public void loginToTheWebSiteWebUsingUsernameAndPassword(){
         LoginPage loginPage = new LoginPage(driver);
         loginPage.onClickLoginTab();
         loginPage.fillUsernameAndPasswordInput();
         loginPage.checkIfLoginSuccess();
     }
 
-    @Test(priority = 3)
-    public void homeScreen(){
+    @Test(priority = 3, description = "Choose random item")
+    public void chooseRandomItem(){
         HomePage homePage = new HomePage(driver);
         homePage.chooseRandomItem();
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4, description = "Add items to the cart")
     public void addItemsToTheCart(){
         ProductInfoPage productInfoPage = new ProductInfoPage(driver);
         productInfoPage.onClickAddToCart();
@@ -36,7 +36,7 @@ public class MainTest extends BaseTest {
         productInfoPage.returnToTheHomePage();
     }
 
-    @Test(priority = 5)
+    @Test(priority = 5 , description = "verify cart products")
     public void verifyCartProducts(){
         CartPage cartPage = new CartPage(driver);
         cartPage.oncClickCartTab();
@@ -44,7 +44,7 @@ public class MainTest extends BaseTest {
         cartPage.onClickCheckoutButton();
     }
 
-    @Test(priority = 6)
+    @Test(priority = 6,description = "Verify complete to checkout")
     public void completeToCheckout(){
         CompleteCheckoutPage completeCheckoutPage = new CompleteCheckoutPage(driver);
         completeCheckoutPage.fillUserData();

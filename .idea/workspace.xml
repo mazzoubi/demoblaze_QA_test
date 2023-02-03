@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59190961-5dbc-4f12-8cd3-6956c7150776" name="Changes" comment="mazzoubi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CompleteCheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/DriverUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/bases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/bases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/production.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/factories/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/factories/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/ProductInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/ProductInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/SignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/testcases/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/testcases/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/ConfigUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675396286937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mazzoubi">
+      <created>1675401231336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675401231336</updated>
+    </task>
+    <task id="LOCAL-00010" summary="mazzoubi">
+      <created>1675401269588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675401269588</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

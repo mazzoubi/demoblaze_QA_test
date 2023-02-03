@@ -2,11 +2,14 @@ package com.demoblaze.productstore.pages;
 
 import com.demoblaze.productstore.bases.BasePage;
 import com.demoblaze.productstore.utils.ConfigUtil;
+import com.demoblaze.productstore.utils.DriverUtil;
 import com.demoblaze.productstore.utils.UserUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+
+import java.time.Duration;
 
 public class SignUpPage extends BasePage {
 
@@ -35,11 +38,7 @@ public class SignUpPage extends BasePage {
         usernameInput.sendKeys(UserUtil.getInstance().getUsername());
         passwordInput.sendKeys(UserUtil.getInstance().getPassword());
         signUpButton.click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        DriverUtil.waitVisibility(1);
         verifyIsCreatedUserAlertMessage();
     }
 

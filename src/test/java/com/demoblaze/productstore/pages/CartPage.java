@@ -1,12 +1,14 @@
 package com.demoblaze.productstore.pages;
 
 import com.demoblaze.productstore.bases.BasePage;
+import com.demoblaze.productstore.utils.DriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Random;
 
@@ -41,11 +43,7 @@ public class CartPage extends BasePage {
     }
 
     public void onClickCheckoutButton(){
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        DriverUtil.waitVisibility(1);
         checkoutButton.click();
     }
 }
