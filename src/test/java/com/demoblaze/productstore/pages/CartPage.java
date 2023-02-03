@@ -17,13 +17,9 @@ public class CartPage extends BasePage {
     WebElement cartTab;
 
 
-    public void aa (){
+    public void oncClickCartTab (){
         cartTab.click();
-        int index = 0;
-        WebElement baseTable = driver.findElement(By.id("tbodyid"));
-        List<WebElement> tableRows = baseTable.findElements(By.tagName("tr"));
-        System.out.println(tableRows.size()+ " size");
-//        tableRows.get(index).getText();
+
     }
 
 
@@ -39,7 +35,5 @@ public class CartPage extends BasePage {
         int randomProduct = random.nextInt(maxProducts);
         // Select the list item
         tableRows.get(randomProduct).findElement(By.xpath("//*[@id=\"tbodyid\"]/tr[1]/td[4]/a")).click();
-        tableRows.get(randomProduct).findElement(By.xpath("//*[@id=\"tbodyid\"]/tr[2]/td[4]/a")).click();
-
     }
 }
