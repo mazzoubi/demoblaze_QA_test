@@ -43,7 +43,7 @@ public class LoginPage extends BasePage {
     }
 
     public void checkIfLoginSuccess(){
-        DriverUtil.waitVisibility(1);
+        DriverUtil.waitVisibility(3);
         Assert.assertTrue(nameOfUserText.isDisplayed());
     }
 

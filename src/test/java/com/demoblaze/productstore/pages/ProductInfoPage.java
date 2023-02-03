@@ -22,7 +22,7 @@ public class ProductInfoPage extends BasePage {
 
     public void onClickAddToCart(){
         addToCartButton.click();
-        DriverUtil.waitVisibility(1);
+        DriverUtil.waitVisibility(3);
         verifyItemIsAdded();
 
     }

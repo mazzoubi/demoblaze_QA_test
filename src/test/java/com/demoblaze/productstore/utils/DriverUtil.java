@@ -8,6 +8,11 @@ import java.time.Duration;
 
 public class DriverUtil extends BaseTest {
     public static void waitVisibility(int seconds){
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
+        try {
+            Thread.sleep(seconds*1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
     }
 }

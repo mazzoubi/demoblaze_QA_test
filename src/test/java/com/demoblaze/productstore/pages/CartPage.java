@@ -43,7 +43,7 @@ public class CartPage extends BasePage {
     }
 
     public void onClickCheckoutButton(){
-        DriverUtil.waitVisibility(1);
+        DriverUtil.waitVisibility(2);
         checkoutButton.click();
     }
 }

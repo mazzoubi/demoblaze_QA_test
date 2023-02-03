@@ -38,7 +38,7 @@ public class SignUpPage extends BasePage {
         usernameInput.sendKeys(UserUtil.getInstance().getUsername());
         passwordInput.sendKeys(UserUtil.getInstance().getPassword());
         signUpButton.click();
-        DriverUtil.waitVisibility(1);
+        DriverUtil.waitVisibility(4);
         verifyIsCreatedUserAlertMessage();
     }
 

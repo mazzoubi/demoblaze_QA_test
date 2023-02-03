@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59190961-5dbc-4f12-8cd3-6956c7150776" name="Changes" comment="mazzoubi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/DriverUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/bases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/bases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/factories/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/factories/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/ProductInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/ProductInfoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/testcases/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/testcases/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/DriverUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675401269588</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mazzoubi">
+      <created>1675438453015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675438453015</updated>
+    </task>
+    <task id="LOCAL-00012" summary="mazzoubi">
+      <created>1675438662524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675438662525</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
