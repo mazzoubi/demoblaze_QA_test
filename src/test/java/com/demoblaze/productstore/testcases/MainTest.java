@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class MainTest extends BaseTest {
 
-    @Test(priority = 1,enabled = false)
+    @Test(priority = 1)
     public void registerScreen(){
         SignUpPage signUpPage = new SignUpPage(driver);
         signUpPage.onClickRegister();
@@ -28,7 +28,7 @@ public class MainTest extends BaseTest {
         homePage.chooseRandomItem();
     }
 
-    @Test(priority = 4,enabled = false)
+    @Test(priority = 4)
     public void addItemsToTheCart(){
         ProductInfoPage productInfoPage = new ProductInfoPage(driver);
         productInfoPage.onClickAddToCart();
@@ -41,5 +41,13 @@ public class MainTest extends BaseTest {
         CartPage cartPage = new CartPage(driver);
         cartPage.oncClickCartTab();
         cartPage.deleteRandomItemFromCart();
+        cartPage.onClickCheckoutButton();
+    }
+
+    @Test(priority = 6)
+    public void completeToCheckout(){
+        CompleteCheckoutPage completeCheckoutPage = new CompleteCheckoutPage(driver);
+        completeCheckoutPage.fillUserData();
+
     }
 }

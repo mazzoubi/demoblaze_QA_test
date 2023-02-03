@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59190961-5dbc-4f12-8cd3-6956c7150776" name="Changes" comment="mazzoubi" />
+    <list default="true" id="59190961-5dbc-4f12-8cd3-6956c7150776" name="Changes" comment="mazzoubi">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CompleteCheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/bases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/bases/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/config/production.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/testcases/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/testcases/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/productstore/utils/ConfigUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +64,7 @@
       <recent name="factories" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainTest.loginScreen">
+  <component name="RunManager">
     <configuration name="MainTest.loginScreen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoblaze" />
       <extension name="coverage">
@@ -186,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675396201272</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mazzoubi">
+      <created>1675396240414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675396240414</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mazzoubi">
+      <created>1675396286937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675396286937</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

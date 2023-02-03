@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.Random;
@@ -15,6 +16,8 @@ public class CartPage extends BasePage {
     }
     @FindBy(xpath = "//*[@id=\"navbarExample\"]/ul/li[4]/a")
     WebElement cartTab;
+    @FindBy(xpath = "//*[@id=\"page-wrapper\"]/div/div[2]/button")
+    WebElement checkoutButton;
 
 
     public void oncClickCartTab (){
@@ -35,5 +38,14 @@ public class CartPage extends BasePage {
         int randomProduct = random.nextInt(maxProducts);
         // Select the list item
         tableRows.get(randomProduct).findElement(By.xpath("//*[@id=\"tbodyid\"]/tr[1]/td[4]/a")).click();
+    }
+
+    public void onClickCheckoutButton(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        checkoutButton.click();
     }
 }

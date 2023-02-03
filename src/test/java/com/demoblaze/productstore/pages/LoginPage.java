@@ -2,6 +2,7 @@ package com.demoblaze.productstore.pages;
 
 import com.demoblaze.productstore.bases.BasePage;
 import com.demoblaze.productstore.bases.BaseTest;
+import com.demoblaze.productstore.utils.UserUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,8 +32,10 @@ public class LoginPage extends BasePage {
     }
 
     public void fillUsernameAndPasswordInput(){
-        usernameInput.sendKeys("mazzoubi");
-        passwordInput.sendKeys("123456");
+        usernameInput.sendKeys(UserUtil.getInstance().getUsername());
+        passwordInput.sendKeys(UserUtil.getInstance().getPassword());
+//        usernameInput.sendKeys("mazzoubi");
+//        passwordInput.sendKeys("123456");
         loginButton.click();
     }
 
