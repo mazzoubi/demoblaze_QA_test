@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class MainTest extends BaseTest {
 
-    @Test(priority = 1)
+    @Test(priority = 1,description = "Verify register with random user")
     public void verifyRegister(){
         SignUpPage signUpPage = new SignUpPage(driver);
         signUpPage.onClickRegister();
